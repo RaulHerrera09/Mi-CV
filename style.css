@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(15, 64, 110, 0.329);
+    font-family: 'Dancing Script', cursive;
+}
+
+
+#Nombre{
+   color: rgb(14, 12, 1);
+   text-align: left;
+}
+ .articulo{
+    background-color: rgb(213, 216, 216);
+    font-size: 100%;
+    
+ }
+ #contactos{
+    
+    font-size: 150%;
+ }
+ .articul0{
+   background-color: antiquewhite;
+   border: 2px solid rgba(114, 28, 28, 0.753);
+   margin: 10px;
+   padding: 20px;
+   
+   
+   
+ }
+ .Skills{
+  
+   
+   background-color: rgb(235, 217, 195);
+   border: 2px solid rgb(42, 42, 71);
+   margin: 10px;
+   padding: 20px;
+   
+
+ }
+ #ExperienciaL{
+   font-size: 130%;
+
+ }
+ h1{
+   color: rgb(109, 5, 5);
+   font-weight: bold;
+ }
+ .redes{
+   font-size: 70%;
+   
+   margin: 10px;
+   padding: 20px;
+   
+ }
+ .container{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 30%;
+
+  grid-template-areas: 
+  "header header header header "
+  "main main  sidebar sidebar "
+  "footer footer footer footer "
+  ;
+  
+ 
+
+ }
+ .item-1{
+  grid-area: header;
+  ;
+ }
+ .item-2{
+  grid-area: main;
+  
+ }
+ .item-3{
+  grid-area: sidebar;
+  
+ }
+ .item-4{
+  grid-area: footer;
+  
+ }
